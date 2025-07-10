@@ -4,32 +4,69 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
+  - aom=3.6.0=h6a678d5_0
   - bzip2=1.0.8=h5eee18b_6
   - ca-certificates=2025.2.25=h06a4308_0
+  - cairo=1.16.0=he5ede1b_6
+  - dav1d=1.2.1=h5eee18b_0
   - expat=2.7.1=h6a678d5_0
+  - ffmpeg=6.1.1=h2a67f75_3
+  - fontconfig=2.14.1=h55d465d_3
+  - freetype=2.13.3=h4a9f257_0
+  - giflib=5.2.2=h5eee18b_0
+  - graphite2=1.3.14=h295c915_1
+  - harfbuzz=10.2.0=hdfddeaa_1
+  - icu=73.1=h6a678d5_0
+  - jpeg=9e=h5eee18b_3
+  - lame=3.100=h7b6447c_0
   - ld_impl_linux-64=2.40=h12ee557_0
+  - leptonica=1.82.0=hfdeec58_3
+  - lerc=4.0.0=h6a678d5_0
+  - libarchive=3.7.7=hfab0078_0
+  - libdeflate=1.22=h5eee18b_0
   - libffi=3.4.4=h6a678d5_1
   - libgcc-ng=11.2.0=h1234567_1
+  - libglib=2.84.2=h37c7471_0
   - libgomp=11.2.0=h1234567_1
+  - libiconv=1.16=h5eee18b_3
+  - libogg=1.3.5=h27cfd23_1
+  - libopus=1.3.1=h5eee18b_1
+  - libpng=1.6.39=h5eee18b_0
   - libstdcxx-ng=11.2.0=h1234567_1
+  - libtheora=1.1.1=h7f8727e_3
+  - libtiff=4.7.0=hde9077f_0
   - libuuid=1.41.5=h5eee18b_0
+  - libvorbis=1.3.7=h7b6447c_0
+  - libvpx=1.13.1=h6a678d5_0
+  - libwebp=1.3.2=h9f374a3_1
+  - libwebp-base=1.3.2=h5eee18b_1
   - libxcb=1.17.0=h9b100fa_0
+  - libxml2=2.13.8=hfdd30dd_0
+  - lz4-c=1.9.4=h6a678d5_1
   - ncurses=6.4=h6a678d5_0
+  - openh264=2.1.1=h4ff587b_0
+  - openjpeg=2.5.2=h0d4d230_1
   - openssl=3.0.16=h5eee18b_0
+  - pcre2=10.42=hebb0a14_1
   - pip=25.1=pyhc872135_2
+  - pixman=0.40.0=h7f8727e_1
   - pthread-stubs=0.3=h0ce48e5_1
   - python=3.11.13=h1a3bd86_0
   - readline=8.2=h5eee18b_0
   - setuptools=78.1.1=py311h06a4308_0
   - sqlite=3.45.3=h5eee18b_0
+  - tesseract=5.2.0=h6a678d5_2
   - tk=8.6.14=h993c535_1
   - wheel=0.45.1=py311h06a4308_0
   - xorg-libx11=1.8.12=h9b100fa_1
   - xorg-libxau=1.0.12=h9b100fa_0
   - xorg-libxdmcp=1.1.5=h9b100fa_0
+  - xorg-libxext=1.3.6=h9b100fa_0
+  - xorg-libxrender=0.9.12=h9b100fa_0
   - xorg-xorgproto=2024.1=h5eee18b_1
   - xz=5.6.4=h5eee18b_1
   - zlib=1.2.13=h5eee18b_1
+  - zstd=1.5.6=hc292b87_0
   - pip:
       - absl-py==2.3.1
       - accelerate==1.8.1
@@ -39,13 +76,21 @@ dependencies:
       - annotated-types==0.7.0
       - astunparse==1.6.3
       - attrs==25.3.0
+      - azure-ai-documentintelligence==1.0.2
+      - azure-core==1.35.0
+      - azure-identity==1.23.0
       - beautifulsoup4==4.13.4
       - bitsandbytes==0.46.1
       - certifi==2025.7.9
+      - cffi==1.17.1
       - charset-normalizer==3.4.2
       - click==8.2.1
+      - cobble==0.1.4
       - colorama==0.4.6
+      - coloredlogs==15.0.1
+      - cryptography==45.0.5
       - datasets==3.6.0
+      - defusedxml==0.7.1
       - dill==0.3.8
       - docling==2.40.0
       - docling-core==2.40.0
@@ -65,9 +110,11 @@ dependencies:
       - h5py==3.14.0
       - hf-xet==1.1.5
       - huggingface-hub==0.33.2
+      - humanfriendly==10.0
       - idna==3.10
       - imageio==2.37.0
       - inquirerpy==0.3.4
+      - isodate==0.7.2
       - jinja2==3.1.6
       - jsonlines==3.1.0
       - jsonref==1.1.0
@@ -78,14 +125,20 @@ dependencies:
       - lazy-loader==0.4
       - libclang==18.1.1
       - lxml==5.4.0
+      - magika==0.6.2
+      - mammoth==1.9.1
       - markdown==3.8.2
       - markdown-it-py==3.0.0
+      - markdownify==1.1.0
+      - markitdown==0.1.2
       - marko==2.1.4
       - markupsafe==3.0.2
       - mdurl==0.1.2
       - ml-dtypes==0.5.1
       - mpire==2.10.2
       - mpmath==1.3.0
+      - msal==1.32.3
+      - msal-extensions==1.3.1
       - multidict==6.6.3
       - multiprocess==0.70.16
       - namex==0.1.0
@@ -106,13 +159,16 @@ dependencies:
       - nvidia-nccl-cu12==2.26.2
       - nvidia-nvjitlink-cu12==12.6.85
       - nvidia-nvtx-cu12==12.6.77
+      - olefile==0.47
       - onnx==1.18.0
+      - onnxruntime==1.22.0
       - opencv-python-headless==4.12.0.88
       - openpyxl==3.1.5
       - opt-einsum==3.4.0
       - optree==0.16.0
       - packaging==25.0
       - pandas==2.3.1
+      - pdfminer-six==20250506
       - peft==0.16.0
       - pfzy==0.3.4
       - pillow==11.3.0
@@ -123,10 +179,13 @@ dependencies:
       - psutil==7.0.0
       - pyarrow==20.0.0
       - pyclipper==1.3.0.post6
+      - pycparser==2.22
       - pydantic==2.11.7
       - pydantic-core==2.33.2
       - pydantic-settings==2.10.1
+      - pydub==0.25.1
       - pygments==2.19.2
+      - pyjwt==2.10.1
       - pylatexenc==2.10
       - pypdfium2==4.30.1
       - python-bidi==0.6.6
@@ -151,6 +210,7 @@ dependencies:
       - shellingham==1.5.4
       - six==1.17.0
       - soupsieve==2.7
+      - speechrecognition==3.14.3
       - sympy==1.14.0
       - tabulate==0.9.0
       - tensorboard==2.19.0
@@ -174,7 +234,9 @@ dependencies:
       - wcwidth==0.2.13
       - werkzeug==3.1.3
       - wrapt==1.17.2
+      - xlrd==2.0.2
       - xlsxwriter==3.2.5
       - xxhash==3.5.0
       - yarl==1.20.1
+      - youtube-transcript-api==1.0.3
 prefix: /home/sh/.miniconda3/envs/osg-ai

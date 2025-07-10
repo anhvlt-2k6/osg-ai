@@ -77,22 +77,6 @@ Only CPU is available
 
 Then you should stop from doing the next step. In that case, review your Linux distro or WSL instance.
 
-#### Prepare documents for tunning
-
-For converting documents, `docconv.py` helps you to prepare the environment.
-
-To change to the directory where the path contains your documents, change the `ROOT` in the line 39. (Make sure the )
-
-```python
-39    ROOT = r"../../FPT_BIT_SE_RES/S2 - OSG202" # <- Change the directory
-```
-
-And then run it.
-
-```bash
-python3 docconv.py
-```
-
 ### Tunning the LLM
 
 ```bash

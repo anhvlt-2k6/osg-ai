@@ -209,3 +209,7 @@ __marimo__/
 # Re-tokenize the LLM (not public, unnecessary)
 .retoken/*
 .tokenmapping/*
+
+# Ignore the env
+.env
+.envs
